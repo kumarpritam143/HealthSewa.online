@@ -1,0 +1,195 @@
+body {
+    background: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 280px;
+    background: #1a237e;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar-header {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+.sidebar-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sidebar-menu li {
+    margin: 5px 0;
+}
+
+.sidebar-menu li a {
+    padding: 12px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.sidebar-menu li a i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar-menu li.active a,
+.sidebar-menu li a:hover {
+    background: #283593;
+    border-left: 4px solid #fff;
+}
+
+/* Main Content Styling */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    color: #1a237e;
+    font-weight: 600;
+}
+
+/* Custom Components */
+.appointment-card, .prescription-card, .history-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.prescription-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.id-info {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.vital-signs {
+    background: #e8f4f8;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.medical-info {
+    margin: 20px 0;
+}
+
+.info-box {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0 15px 0;
+    white-space: pre-line;
+}
+
+.timestamp {
+    color: #666;
+    font-size: 0.9em;
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.appointment-header, .prescription-header, .history-header {
+    border-bottom: 2px solid #e3f2fd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    color: #1a237e;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #1a237e;
+    border-color: #1a237e;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #283593;
+    border-color: #283593;
+}
+
+/* Alert Styling */
+.alert {
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Container padding */
+.container {
+    padding: 20px;
+}
+
+/* Header title styling */
+h2 {
+    color: #1a237e;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
